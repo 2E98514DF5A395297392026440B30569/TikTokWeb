@@ -38,6 +38,8 @@ http://localhost:4000/
 ```
 docker pull johnserfseed/tiktokweb:latest
 docker run -d -p 4000:<any port> tiktokweb
+
+docker run -d -p 4000:4000 --restart=unless-stopped johnserfseed/tiktokweb:latest
 ```
 
 <img src="https://visitor-badge.glitch.me/badge?page_id=johnserf-seed.tiktokweb" alt="访客统计" />
